@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/getmore-prueba/static/css/main.194f4ccb.css",
-    "main.js": "/getmore-prueba/static/js/main.0b4508e3.js",
+    "main.css": "/getmore-prueba/static/css/main.de323b5d.css",
+    "main.js": "/getmore-prueba/static/js/main.7a83d951.js",
     "static/media/hero-img.png": "/getmore-prueba/static/media/hero-img.32837902d4377c110090.png",
     "static/media/img-tenis.jpg": "/getmore-prueba/static/media/img-tenis.0278d02d442b7ab0a715.jpg",
     "static/media/ball-slider.png": "/getmore-prueba/static/media/ball-slider.9bd76640baf2781fe89a.png",
     "static/media/raqueta.png": "/getmore-prueba/static/media/raqueta.f1c2c447c29bd5cf8f89.png",
     "static/media/Helvetica.ttf": "/getmore-prueba/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/menu.svg": "/getmore-prueba/static/media/menu.cb17083bca997a2d22a47c23c0731079.svg",
     "static/media/ball.svg": "/getmore-prueba/static/media/ball.8e1de1dbbdea816af5234036aced1459.svg",
     "static/media/vimeo.svg": "/getmore-prueba/static/media/vimeo.60b2519cea31cae942507c6c37907c9f.svg",
     "static/media/twitter.svg": "/getmore-prueba/static/media/twitter.5f3bfa5c9776217c2a76977ec455163c.svg",
@@ -15,11 +16,11 @@
     "static/media/facebook.svg": "/getmore-prueba/static/media/facebook.0994fa80894b92256afebd697bae679d.svg",
     "index.html": "/getmore-prueba/index.html",
     "static/media/row.svg": "/getmore-prueba/static/media/row.2552b10956e63f1a49e4e0d9030a3732.svg",
-    "main.194f4ccb.css.map": "/getmore-prueba/static/css/main.194f4ccb.css.map",
-    "main.0b4508e3.js.map": "/getmore-prueba/static/js/main.0b4508e3.js.map"
+    "main.de323b5d.css.map": "/getmore-prueba/static/css/main.de323b5d.css.map",
+    "main.7a83d951.js.map": "/getmore-prueba/static/js/main.7a83d951.js.map"
   },
   "entrypoints": [
-    "static/css/main.194f4ccb.css",
-    "static/js/main.0b4508e3.js"
+    "static/css/main.de323b5d.css",
+    "static/js/main.7a83d951.js"
   ]
 }
