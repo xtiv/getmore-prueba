@@ -3,6 +3,8 @@
   src: url("../fonts/Helvetica.ttf");
 }
 
+
+
 :root {
  --primary-color : #cbe346;
  --dark: #1e2335;
@@ -264,16 +266,16 @@ h1 {
 /* Splide Container */
 
 .splide-main {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+  display: grid;
+  grid: auto / 530px 1fr;
   align-items: center;
-  gap: 58px;
+  justify-content: space-between;
+  width: 100%;
+  overflow-x: hidden;
 }
 .splide-container {
   max-height: 468px;
-  display: flex;
-  flex-basis: 40%;
+  width: 100%;
 }
 .splide__track ul {
   max-height: 468px;
@@ -288,8 +290,9 @@ h1 {
 }
 
 .carousel-container {
-  flex-basis: 60%;
+  margin-bottom: 20px;
 }
+
 .carousel-container .splide__pagination {
   display: none !important;
 }
@@ -304,7 +307,10 @@ h1 {
 .splide__pagination__page {
   opacity: 1 !important;
 }
+/* .splide__list li {
+  height: 258px;
 
+} */
 .splide__arrow--prev {
   margin-top: 150px;
   position: absolute !important;
@@ -392,7 +398,185 @@ h1 {
   background-color: transparent;
   box-shadow: none;
 }
+.navbar-mobile {
+  display: none;
+}
 
+@media (max-width:1240px) {
+  .items-main button {
+    position: static;
+    margin: 0 auto;
+  }
+  .items-main {
+    padding: 60px 20px 80px;
+  }
+  .sup-items {
+    flex-direction: column;
+  }
+  .sup-items p {
+    text-align: center;
+    margin: 0;
+  }
+  .sup-items h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  .items-description {
+    text-align: center;
+  }
+}
+@media (max-width:1024px) {
+  .splide-main {
+    grid: repeat(2, 1fr) / auto;
+  }
+}
+@media (max-width:895px) {
+  .languages-container {
+    display: none;
+  }
+  .navbar-container {
+    display: none;
+  }
+  .hero-container {
+    padding-right: 100px;
+  }
+  .hero-container h1 {
+    font-size: 45px;
+  }
+  .navbar-mobile {
+    display: block;
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+    width: 100%;
+  }
+  .navbar-mobile svg {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-mobile svg path {
+    fill: white
+  }
+  .menu-mobile-main {
+    display: flex;
+    justify-content: end;
+    padding: 0 25px;
+  }
+  .menu-mobile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 20px 30px;
+    margin-top: 20px;
+    gap: 10px;
+    background-color: #787878a6;
+  }
+  .ball-icon {
+    top:38px
+  }
+}
+@media (max-width:645px) {
+  .hero-container h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .sup-items h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .footer-social-icons {
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .footer {
+    justify-content: center;
+  }
+  .footer a {
+    font-size: 11px;
+  }
+  .footer-container span {
+    top: 95px;
+    right: 25px;
+  }
+}
 
+@media (max-width:495px) {
 
-
+  .hero-main::before {
+    display: none;
+  }
+  .hero-container {
+    padding: 0 20px;
+  }
+  .hero-container h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .hero-container button {
+    font-size: 11px;
+  }
+  .ball-icon {
+    left: 25px;
+  }
+  .languages-container {
+    top:40px;
+    right: 25px;
+  }
+  .sup-items {
+    width: 100%;
+  }
+  .sup-items h2 {
+    font-size: clamp(30px, 3vw, 40px);
+    width: 100%;
+  }
+  .items-description{
+    font-size: 16px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .prefooter-container {
+    max-height: 350px;
+  }
+  .prefooter-container img {
+    max-height: 350px;
+  }
+  .footer-container {
+    padding: 40px 20px;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 30px;
+  }
+  .footer-container span {
+    top: 25px;
+    right: 25px;
+  }
+  .splide-main {
+    grid: repeat(2, 1fr) / auto;
+  }
+  .card-description {
+    top: 10%;
+    right: auto;
+    left: 40px;
+  }
+  .splide__pagination {
+    display: none !important;
+  }
+  .splide__arrow--prev {
+    left: 10vw !important;
+    margin-top: 100px;
+  }
+  .splide__arrow--next {
+    right: 10vw !important;
+    margin-top: 100px;
+  }
+  .title-slider {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .card-p {
+    font-size: 16px;
+    max-width: 250px;
+  }
+}

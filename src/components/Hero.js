@@ -1,4 +1,7 @@
 import React from "react";
+
+// Assets
+
 import "../styles/style.css";
 import backgroundImage from "../images/hero-img.png"
 import { ReactComponent as RowIcon } from "../images/row.svg";
