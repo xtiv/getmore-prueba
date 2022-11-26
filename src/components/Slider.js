@@ -42,23 +42,25 @@ const Slider = () => {
           options={{
             rewind: true,
             type: "slide",
-            perPage: 2,
+            perPage: 1,
             perMove: 1,
             drag   : 'free',
             gap: 36,
-            padding: '5rem',
-            width: '60%',
+            padding: '2rem',
+            width: '100vw',
             fixedWidth : '288px',
             fixedHeight: '344px',
-            mediaQuery: 'max',
+            mediaQuery: 'min',
             breakpoints: {
+              1600: {
+                width: '75%',
+              },
               1024: {
-                width: '100vw',
+                width: '60%',
               },
               495: {
-                perPage: 1,
-                padding: '2rem',
-                drag   : 'false',
+                perPage: 2,
+                padding: '5rem',
               },
             },
           }}
