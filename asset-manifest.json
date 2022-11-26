@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/getmore-prueba/static/css/main.de323b5d.css",
-    "main.js": "/getmore-prueba/static/js/main.7a83d951.js",
+    "main.js": "/getmore-prueba/static/js/main.d300bbeb.js",
     "static/media/hero-img.png": "/getmore-prueba/static/media/hero-img.32837902d4377c110090.png",
     "static/media/img-tenis.jpg": "/getmore-prueba/static/media/img-tenis.0278d02d442b7ab0a715.jpg",
     "static/media/ball-slider.png": "/getmore-prueba/static/media/ball-slider.9bd76640baf2781fe89a.png",
@@ -17,10 +17,10 @@
     "index.html": "/getmore-prueba/index.html",
     "static/media/row.svg": "/getmore-prueba/static/media/row.2552b10956e63f1a49e4e0d9030a3732.svg",
     "main.de323b5d.css.map": "/getmore-prueba/static/css/main.de323b5d.css.map",
-    "main.7a83d951.js.map": "/getmore-prueba/static/js/main.7a83d951.js.map"
+    "main.d300bbeb.js.map": "/getmore-prueba/static/js/main.d300bbeb.js.map"
   },
   "entrypoints": [
     "static/css/main.de323b5d.css",
-    "static/js/main.7a83d951.js"
+    "static/js/main.d300bbeb.js"
   ]
 }
