@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Tienda de Tennis.
+
+Creacion la página de inicio para una tienda de Raquetas para Tennis
+
+## Tecnologías usadas 
+
+ - ReactJS (Todo el proyecto está en ReactJS)
+ - Libreria SplideJS (Para los sliders)
+
+#NPM REACT
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
