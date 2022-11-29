@@ -7,7 +7,7 @@ Creacion la página de inicio para una tienda de Raquetas para Tennis
  - ReactJS (Todo el proyecto está en ReactJS)
  - Libreria SplideJS (Para los sliders)
 
-#NPM REACT
+# NPM REACT
 
 ## Getting Started with Create React App
 
